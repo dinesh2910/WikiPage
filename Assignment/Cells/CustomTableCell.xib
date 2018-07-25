@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Medium.ttf">
+            <string>Rubik-Medium</string>
+        </array>
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CustomTableCell" rowHeight="568" id="KGk-i7-Jjw" customClass="CustomTableCell" customModule="Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="567.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b7g-fd-AgZ">
+                        <rect key="frame" x="40" y="40" width="315" height="527.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pYg-BD-6BX">
+                                <rect key="frame" x="100" y="5" width="195" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="8bb-Ke-xka"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="at2-U8-ceN">
+                                <rect key="frame" x="20" y="100" width="275" height="368"/>
+                                <mutableString key="text">Using third-party tools like CocoaPods for iOS development in Xcode, I often found myself in need of opening a Terminal window at the project location. Although I felt like a hacker for using Terminal at first (like the n00b I was), this becomes quite boring and tedious pretty soon.
+
+My first solution was adding an “Open Terminal at this location” service to Finder, so I could right-click the project folder and open a Terminal window with that location preselected. This approach required you to jump out of Xcode, usually by clicking “Reveal in Finder” on your project file, in order to </mutableString>
+                                <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gqV-Nk-3oA" userLabel="actionsView">
+                                <rect key="frame" x="32.5" y="478" width="250" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqE-O2-FO5">
+                                        <rect key="frame" x="10" y="0.0" width="70" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="264-qc-iPs"/>
+                                            <constraint firstAttribute="width" constant="70" id="AJN-25-6GZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="14"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="227k" image="icArticle">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="par-1r-poQ">
+                                        <rect key="frame" x="90" y="0.0" width="70" height="40"/>
+                                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="14"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="17k" image="icDiscussions">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fM3-Hv-H8O">
+                                        <rect key="frame" x="170" y="0.0" width="70" height="40"/>
+                                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="14"/>
+                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="123k" image="icVideo">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="par-1r-poQ" firstAttribute="height" secondItem="kqE-O2-FO5" secondAttribute="height" id="6x4-ql-pTj"/>
+                                    <constraint firstItem="fM3-Hv-H8O" firstAttribute="height" secondItem="kqE-O2-FO5" secondAttribute="height" id="N74-gB-ZTD"/>
+                                    <constraint firstItem="par-1r-poQ" firstAttribute="centerY" secondItem="kqE-O2-FO5" secondAttribute="centerY" id="XhH-4U-8l6"/>
+                                    <constraint firstItem="fM3-Hv-H8O" firstAttribute="width" secondItem="kqE-O2-FO5" secondAttribute="width" id="eME-WD-8YZ"/>
+                                    <constraint firstItem="kqE-O2-FO5" firstAttribute="leading" secondItem="gqV-Nk-3oA" secondAttribute="leading" constant="10" id="enR-Xq-vQw"/>
+                                    <constraint firstAttribute="height" constant="40" id="gMD-O5-ocE"/>
+                                    <constraint firstItem="fM3-Hv-H8O" firstAttribute="leading" secondItem="par-1r-poQ" secondAttribute="trailing" constant="10" id="gq3-p0-Clo"/>
+                                    <constraint firstAttribute="trailing" secondItem="fM3-Hv-H8O" secondAttribute="trailing" constant="10" id="iyg-BS-p9v"/>
+                                    <constraint firstItem="kqE-O2-FO5" firstAttribute="centerY" secondItem="gqV-Nk-3oA" secondAttribute="centerY" id="n0G-Uj-Y4s"/>
+                                    <constraint firstItem="par-1r-poQ" firstAttribute="leading" secondItem="kqE-O2-FO5" secondAttribute="trailing" constant="10" id="oG0-eB-3CP"/>
+                                    <constraint firstItem="fM3-Hv-H8O" firstAttribute="centerY" secondItem="par-1r-poQ" secondAttribute="centerY" id="qtK-b4-ixh"/>
+                                    <constraint firstItem="par-1r-poQ" firstAttribute="width" secondItem="kqE-O2-FO5" secondAttribute="width" id="tS5-bk-P8o"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="pYg-BD-6BX" secondAttribute="trailing" constant="20" id="02W-zS-PwJ"/>
+                            <constraint firstItem="gqV-Nk-3oA" firstAttribute="top" secondItem="at2-U8-ceN" secondAttribute="bottom" constant="10" id="JOJ-xS-Rch"/>
+                            <constraint firstAttribute="trailing" secondItem="at2-U8-ceN" secondAttribute="trailing" constant="20" id="Rt6-Up-n7i"/>
+                            <constraint firstItem="at2-U8-ceN" firstAttribute="leading" secondItem="b7g-fd-AgZ" secondAttribute="leading" constant="20" id="SGQ-R9-QX0"/>
+                            <constraint firstAttribute="bottom" secondItem="gqV-Nk-3oA" secondAttribute="bottom" constant="10" id="VFq-Bo-cGe"/>
+                            <constraint firstItem="gqV-Nk-3oA" firstAttribute="centerX" secondItem="b7g-fd-AgZ" secondAttribute="centerX" id="aLV-e4-Xpo"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="csv-wC-uDA" userLabel="shadowView">
+                        <rect key="frame" x="20" y="20" width="100" height="100"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p4o-Rj-zM1">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="p4o-Rj-zM1" firstAttribute="leading" secondItem="csv-wC-uDA" secondAttribute="leading" id="0QD-0p-b3D"/>
+                            <constraint firstAttribute="trailing" secondItem="p4o-Rj-zM1" secondAttribute="trailing" id="8xA-bC-FDb"/>
+                            <constraint firstAttribute="bottom" secondItem="p4o-Rj-zM1" secondAttribute="bottom" id="CIt-rq-d9t"/>
+                            <constraint firstAttribute="width" constant="100" id="Vgh-Lz-1Jh"/>
+                            <constraint firstItem="p4o-Rj-zM1" firstAttribute="top" secondItem="csv-wC-uDA" secondAttribute="top" id="hqf-do-uds"/>
+                            <constraint firstAttribute="width" secondItem="csv-wC-uDA" secondAttribute="height" multiplier="1:1" id="imM-9r-Lwg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.92156862745098034" green="0.94117647058823528" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="at2-U8-ceN" firstAttribute="top" secondItem="p4o-Rj-zM1" secondAttribute="bottom" constant="20" id="19I-5l-j9F"/>
+                    <constraint firstAttribute="trailing" secondItem="b7g-fd-AgZ" secondAttribute="trailing" constant="20" id="22J-qm-QcT"/>
+                    <constraint firstItem="pYg-BD-6BX" firstAttribute="leading" secondItem="p4o-Rj-zM1" secondAttribute="trailing" constant="20" id="7y7-YO-AAh"/>
+                    <constraint firstItem="b7g-fd-AgZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="40" id="FCn-6D-aEV"/>
+                    <constraint firstItem="b7g-fd-AgZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="HGE-zz-Cvz"/>
+                    <constraint firstAttribute="bottom" secondItem="b7g-fd-AgZ" secondAttribute="bottom" id="chD-rX-wag"/>
+                    <constraint firstItem="pYg-BD-6BX" firstAttribute="centerY" secondItem="p4o-Rj-zM1" secondAttribute="centerY" id="hyc-nW-6Tv"/>
+                    <constraint firstItem="csv-wC-uDA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="hzU-Kh-n3D"/>
+                    <constraint firstItem="csv-wC-uDA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="nxf-eS-UYJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="articlesBtn" destination="kqE-O2-FO5" id="IEJ-Xk-R9k"/>
+                <outlet property="descLbl" destination="at2-U8-ceN" id="PyI-XX-MnC"/>
+                <outlet property="discussionsBtn" destination="par-1r-poQ" id="96H-rK-1fd"/>
+                <outlet property="imgVw" destination="p4o-Rj-zM1" id="Upi-Fb-5ZQ"/>
+                <outlet property="titleLbl" destination="pYg-BD-6BX" id="w7B-Bi-wJI"/>
+                <outlet property="videosBtn" destination="fM3-Hv-H8O" id="Lhe-Pn-RsZ"/>
+            </connections>
+            <point key="canvasLocation" x="-36.5" y="267"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icArticle" width="14" height="16"/>
+        <image name="icDiscussions" width="16" height="16"/>
+        <image name="icVideo" width="18" height="16"/>
+    </resources>
+</document>
