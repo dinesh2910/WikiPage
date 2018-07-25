@@ -1,0 +1,2 @@
+# WikiPage
+Assignment for Fandom
